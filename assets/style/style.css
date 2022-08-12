@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+#mgmtport:hover {
+    background-color: #A2DBFA !important;
+}
+
+#custport:hover {
+    background-color: #FFE867 !important;
+}
+
+/*              Scrollbar Styling               */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+a:hover {
+    border-color: black !important;
+}
+
+/* Table properties*/
+th {
+
+    position: sticky;
+    top: 0;
+
+}
+
+table tbody tr:hover {
+    background-color: #ffd1b3 !important;
+}
+
+.tablerep {
+    overflow-y: auto;
+    height: 700px;
+
+}
+
+.tableshadow {
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.73);
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.73);
+    -moz-box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.73);
+}
+
+input[type="file"] {
+    display: none !important;
+}
+
+#picuploadalert {
+    color: #DD0004 !important;
+}
+
+.variant {
+    position: absolute !important;
+    float: right !important;
+    top: 0;
+    right: 0;
+}
+
+.outofstock {
+    top: 50% !important;
+    /* position the top  edge of the element at the middle of the parent */
+    left: 50% !important;
+    /* position the left edge of the element at the middle of the parent */
+
+    transform: translate(-50%, -50%) !important;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.rainbow {
+    /* Font options */
+
+    /* Chrome, Safari, Opera */
+    -webkit-animation: rainbow 5s infinite;
+
+    /* Internet Explorer */
+    -ms-animation: rainbow 5s infinite;
+
+    /* Standar Syntax */
+    animation: rainbow 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow {
+    0% {
+        color: orange;
+    }
+
+    10% {
+        color: purple;
+    }
+
+    20% {
+        color: red;
+    }
+
+    30% {
+        color: CadetBlue;
+    }
+
+    40% {
+        color: yellow;
+    }
+
+    50% {
+        color: coral;
+    }
+
+    60% {
+        color: green;
+    }
+
+    70% {
+        color: cyan;
+    }
+
+    80% {
+        color: DeepPink;
+    }
+
+    90% {
+        color: DodgerBlue;
+    }
+
+    100% {
+        color: orange;
+    }
+}
+
+/* Internet Explorer */
+@-ms-keyframes rainbow {
+    0% {
+        color: orange;
+    }
+
+    10% {
+        color: purple;
+    }
+
+    20% {
+        color: red;
+    }
+
+    30% {
+        color: CadetBlue;
+    }
+
+    40% {
+        color: yellow;
+    }
+
+    50% {
+        color: coral;
+    }
+
+    60% {
+        color: green;
+    }
+
+    70% {
+        color: cyan;
+    }
+
+    80% {
+        color: DeepPink;
+    }
+
+    90% {
+        color: DodgerBlue;
+    }
+
+    100% {
+        color: orange;
+    }
+}
+
+/* Standar Syntax */
+@keyframes rainbow {
+    0% {
+        color: orange;
+    }
+
+    10% {
+        color: purple;
+    }
+
+    20% {
+        color: red;
+    }
+
+    30% {
+        color: CadetBlue;
+    }
+
+    40% {
+        color: yellow;
+    }
+
+    50% {
+        color: coral;
+    }
+
+    60% {
+        color: green;
+    }
+
+    70% {
+        color: cyan;
+    }
+
+    80% {
+        color: DeepPink;
+    }
+
+    90% {
+        color: DodgerBlue;
+    }
+
+    100% {
+        color: orange;
+    }
+}
+
+.cart-basket {
+    font-size: .6rem;
+    position: absolute;
+    top: -6px;
+    right: -5px;
+    width: 15px;
+    height: 15px;
+    color: #fff;
+    background-color: #eb1717;
+    border-radius: 50%;
+}
+
+#carttable {
+    counter-reset: tbody;
+}
+
+#carttable tr {
+    counter-increment: rowNumber;
+}
+
+#carttable tr td:first-child::before {
+    content: counter(rowNumber);
+}
+
+.hoveritem:hover {
+    cursor: grabbing;
+    background-color: rgb(0, 0, 0) !important;
+    color: whitesmoke;
+}
+
+.vieworderfield {
+    background-color: lightgreen !important;
+    cursor: no-drop;
+}
+
+.shadow{
+    box-shadow: 0px 0px 14px 15px rgba(0,0,0,0.72);
+    -webkit-box-shadow: 0px 0px 14px 15px rgba(0,0,0,0.72);
+    -moz-box-shadow: 0px 0px 14px 15px rgba(0,0,0,0.72);
+}
